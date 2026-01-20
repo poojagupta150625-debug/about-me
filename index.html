@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pooja Gupta | Fiverr Web Developer</title>
+    <title>Pooja Gupta | Web Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="mysite.css">
+    <link rel="stylesheet" href="fiverr.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -38,16 +38,13 @@
     <section class="hero" id="home">
         <div class="hero-content">
             <h1 class="hero-title">Hi, I'm <span class="highlight">Pooja Gupta</span></h1>
-            <p class="hero-subtitle">Full Stack Web Developer & Fiverr Freelancer</p>
-            <p class="hero-desc">I create stunning, responsive websites with clean code and modern designs</p>
+            <p class="hero-subtitle">Frontend Developer & Computer Science Student</p>
+            <p class="hero-desc">Passionate about creating responsive, user-friendly websites with clean code and modern design principles</p>
             <div class="hero-buttons">
-                <button class="btn btn-primary" id="viewProjects">View My Work</button>
-                <button class="btn btn-secondary" id="contactBtn">Hire Me on Fiverr</button>
+                <button class="btn btn-primary" id="viewProjects">View Projects</button>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
             </div>
             <div class="social-icons">
-                <a href="https://www.fiverr.com/pooja.gupta_15" target="_blank" class="social-link">
-                    <i class="fas fa-star"></i> Fiverr
-                </a>
                 <a href="https://github.com/poojagupta150625-debug" target="_blank" class="social-link">
                     <i class="fab fa-github"></i> GitHub
                 </a>
@@ -61,14 +58,13 @@
             <div class="floating-shape shape-2"></div>
             <div class="floating-shape shape-3"></div>
             <div class="code-snippet">
-                <pre><code>// Creating amazing websites
-function createWebsite() {
-  return {
-    design: "Modern",
-    responsive: true,
-    performance: "Optimized"
-  };
-}</code></pre>
+                <pre><code>// Building modern web experiences
+const developer = {
+  name: "Pooja Gupta",
+  role: "Frontend Developer",
+  skills: ["HTML5", "CSS3", "JavaScript"],
+  approach: "Clean, Responsive & User-Centric"
+};</code></pre>
             </div>
         </div>
     </section>
@@ -79,20 +75,24 @@ function createWebsite() {
             <h2 class="section-title">About <span class="highlight">Me</span></h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm a passionate web developer with expertise in creating dynamic, user-friendly websites. I specialize in front-end development and responsive design.</p>
-                    <p>On Fiverr, I help clients bring their ideas to life with custom websites that are both beautiful and functional.</p>
+                    <p>I am a dedicated Computer Science student with a strong passion for web development. My journey in coding began during my college years, and since then, I've been constantly learning and improving my skills.</p>
+                    <p>As a frontend developer, I believe in creating websites that are not only visually appealing but also provide excellent user experience. I pay attention to details and ensure that every project I work on meets the highest standards of quality.</p>
+                    <p>What sets me apart is my commitment to delivering work on time and my willingness to go the extra mile to ensure client satisfaction. I approach every project with enthusiasm and a problem-solving mindset.</p>
                     <div class="stats">
+                        <div class="stat" id="experienceStat">
+                            <h3>College Student</h3>
+                            <p>Computer Science</p>
+                            <div class="stat-info">Currently pursuing degree with focus on web technologies</div>
+                        </div>
                         <div class="stat">
-                            <h3>50+</h3>
+                            <h3>5+</h3>
                             <p>Projects Completed</p>
+                            <div class="stat-info">Hands-on experience with real projects</div>
                         </div>
                         <div class="stat">
-                            <h3>100%</h3>
-                            <p>Client Satisfaction</p>
-                        </div>
-                        <div class="stat">
-                            <h3>2+</h3>
-                            <p>Years Experience</p>
+                            <h3>Reliable</h3>
+                            <p>Dedicated Developer</p>
+                            <div class="stat-info">Committed to quality and timely delivery</div>
                         </div>
                     </div>
                 </div>
@@ -121,6 +121,7 @@ function createWebsite() {
                         <div class="skill-level" style="width: 95%"></div>
                     </div>
                     <p>Semantic markup & accessibility</p>
+                    <button class="skill-info-btn" data-skill="html">Learn More</button>
                 </div>
                 <div class="skill-card" data-skill="css">
                     <div class="skill-icon">
@@ -131,6 +132,7 @@ function createWebsite() {
                         <div class="skill-level" style="width: 90%"></div>
                     </div>
                     <p>Flexbox, Grid & animations</p>
+                    <button class="skill-info-btn" data-skill="css">Learn More</button>
                 </div>
                 <div class="skill-card" data-skill="js">
                     <div class="skill-icon">
@@ -141,26 +143,7 @@ function createWebsite() {
                         <div class="skill-level" style="width: 85%"></div>
                     </div>
                     <p>DOM manipulation & ES6+</p>
-                </div>
-                <div class="skill-card" data-skill="responsive">
-                    <div class="skill-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3>Responsive Design</h3>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 92%"></div>
-                    </div>
-                    <p>Mobile-first approach</p>
-                </div>
-                <div class="skill-card" data-skill="git">
-                    <div class="skill-icon">
-                        <i class="fab fa-git-alt"></i>
-                    </div>
-                    <h3>Git & GitHub</h3>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 88%"></div>
-                    </div>
-                    <p>Version control & collaboration</p>
+                    <button class="skill-info-btn" data-skill="js">Learn More</button>
                 </div>
                 <div class="skill-card" data-skill="webdev">
                     <div class="skill-icon">
@@ -168,9 +151,10 @@ function createWebsite() {
                     </div>
                     <h3>Web Development</h3>
                     <div class="skill-bar">
-                        <div class="skill-level" style="width: 90%"></div>
+                        <div class="skill-level" style="width: 88%"></div>
                     </div>
-                    <p>Full stack fundamentals</p>
+                    <p>Frontend development</p>
+                    <button class="skill-info-btn" data-skill="webdev">Learn More</button>
                 </div>
             </div>
         </div>
@@ -182,21 +166,21 @@ function createWebsite() {
             <h2 class="section-title">My <span class="highlight">Projects</span></h2>
             <div class="project-filters">
                 <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
                 <button class="filter-btn" data-filter="responsive">Responsive</button>
-                <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
             </div>
             <div class="projects-grid">
-                <div class="project-card" data-category="portfolio">
+                <div class="project-card" data-category="ecommerce">
                     <div class="project-image">
                         <div class="project-overlay">
                             <button class="view-project" data-project="1">View Details</button>
                         </div>
-                        <div class="project-tag">Portfolio</div>
+                        <div class="project-tag">E-Commerce</div>
                     </div>
                     <div class="project-content">
-                        <h3>Portfolio Website</h3>
-                        <p>A responsive portfolio showcasing my skills and projects with modern design.</p>
+                        <h3>Fashion Store</h3>
+                        <p>A modern e-commerce website for fashion products with cart functionality and product filtering.</p>
                         <div class="project-tech">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -209,11 +193,11 @@ function createWebsite() {
                         <div class="project-overlay">
                             <button class="view-project" data-project="2">View Details</button>
                         </div>
-                        <div class="project-tag">Web Design</div>
+                        <div class="project-tag">Web App</div>
                     </div>
                     <div class="project-content">
-                        <h3>Business Landing Page</h3>
-                        <p>Modern business website with animations and contact form functionality.</p>
+                        <h3>Task Management App</h3>
+                        <p>Interactive task manager with drag-drop functionality, local storage, and priority settings.</p>
                         <div class="project-tech">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -221,16 +205,16 @@ function createWebsite() {
                         </div>
                     </div>
                 </div>
-                <div class="project-card" data-category="web">
+                <div class="project-card" data-category="responsive">
                     <div class="project-image">
                         <div class="project-overlay">
                             <button class="view-project" data-project="3">View Details</button>
                         </div>
-                        <div class="project-tag">Coming Soon</div>
+                        <div class="project-tag">Portfolio</div>
                     </div>
                     <div class="project-content">
-                        <h3>E-Commerce Template</h3>
-                        <p>Full-featured online store template with product filtering and cart.</p>
+                        <h3>Student Portfolio</h3>
+                        <p>A responsive portfolio website for students to showcase projects and academic achievements.</p>
                         <div class="project-tech">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -250,18 +234,10 @@ function createWebsite() {
                 <div class="contact-info">
                     <div class="contact-card">
                         <div class="contact-icon">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h3>Fiverr Profile</h3>
-                        <p>Check out my services and hire me on Fiverr</p>
-                        <a href="https://www.fiverr.com/pooja.gupta_15" target="_blank" class="contact-link">Visit My Fiverr →</a>
-                    </div>
-                    <div class="contact-card">
-                        <div class="contact-icon">
                             <i class="fab fa-github"></i>
                         </div>
                         <h3>GitHub Portfolio</h3>
-                        <p>Explore my code repositories and projects</p>
+                        <p>Explore my code repositories and personal projects</p>
                         <a href="https://github.com/poojagupta150625-debug" target="_blank" class="contact-link">View My GitHub →</a>
                     </div>
                     <div class="contact-card">
@@ -269,8 +245,16 @@ function createWebsite() {
                             <i class="fas fa-envelope"></i>
                         </div>
                         <h3>Email Me</h3>
-                        <p>Send me a message for project inquiries</p>
+                        <p>Send me a message for project inquiries or collaborations</p>
                         <a href="mailto:poojagupta150625@gmail.com" class="contact-link">Send Email →</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Student Developer</h3>
+                        <p>Currently accepting freelance projects and internships</p>
+                        <a href="#contact" class="contact-link">Let's Collaborate →</a>
                     </div>
                 </div>
                 <div class="contact-form">
@@ -300,24 +284,59 @@ function createWebsite() {
                     <span class="logo-icon">💻</span>
                     <span class="logo-text">Pooja Gupta</span>
                 </div>
-                <p class="footer-tagline">Creating digital experiences that make a difference</p>
+                <p class="footer-tagline">Building the web, one line of code at a time</p>
                 <div class="footer-social">
-                    <a href="https://www.fiverr.com/pooja.gupta_15" target="_blank"><i class="fas fa-star"></i></a>
                     <a href="https://github.com/poojagupta150625-debug" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="mailto:poojagupta150625@gmail.com"><i class="fas fa-envelope"></i></a>
                 </div>
-                <p class="footer-copyright">© 2025 Pooja Gupta. All rights reserved.</p>
-                <p class="footer-note">This portfolio is hosted on GitHub Pages</p>
+                <p class="footer-copyright">© 2024 Pooja Gupta. All rights reserved.</p>
+                <p class="footer-note">Computer Science Student & Frontend Developer</p>
             </div>
         </div>
     </footer>
+
+    <!-- Skill Info Modal -->
+    <div class="modal" id="skillModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body" id="skillModalBody">
+                <!-- Dynamic skill info will be loaded here -->
+            </div>
+        </div>
+    </div>
 
     <!-- Project Modal -->
     <div class="modal" id="projectModal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <div class="modal-body" id="modalBody">
-                <!-- Dynamic content will be loaded here -->
+            <div class="modal-body" id="projectModalBody">
+                <!-- Dynamic project info will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience Modal -->
+    <div class="modal" id="experienceModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>My Journey</h2>
+                <p>I am currently a Computer Science student with a strong passion for web development. My interest in coding started during my college years, and I've been actively learning and building projects since then.</p>
+                
+                <h3>What I Offer:</h3>
+                <ul>
+                    <li><strong>Fresh Perspective:</strong> As a student, I bring current knowledge of modern web technologies and trends</li>
+                    <li><strong>Dedication:</strong> I'm committed to delivering quality work and meeting deadlines</li>
+                    <li><strong>Learning Mindset:</strong> Constantly updating my skills and adapting to new technologies</li>
+                    <li><strong>Attention to Detail:</strong> Focus on creating clean, efficient, and user-friendly code</li>
+                </ul>
+                
+                <h3>My Approach:</h3>
+                <p>I believe in understanding the client's needs thoroughly and providing solutions that not only meet but exceed expectations. My goal is to build websites that are both functional and visually appealing.</p>
+                
+                <div class="modal-footer">
+                    <button class="btn btn-primary" onclick="document.getElementById('experienceModal').style.display='none'">Close</button>
+                </div>
             </div>
         </div>
     </div>
@@ -331,6 +350,6 @@ function createWebsite() {
     </div>
 
     <!-- JavaScript -->
-    <script src="mysite.js"></script>
+    <script src="fiverr.js"></script>
 </body>
 </html>
